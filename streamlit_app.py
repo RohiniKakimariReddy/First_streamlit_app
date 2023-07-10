@@ -8,4 +8,4 @@ streamlit.text('🐔 Hard-Boiled Free-range eggs')
 streamlit.text('🥑🍞 Avacado Toast')
 
 my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
-streamlit.datafarame(my_fruit_list)
+streamlit.dataframe(my_fruit_list)
